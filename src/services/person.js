@@ -1,7 +1,9 @@
 // communication with backend
-import axios from 'axios'
-// const baseUrl = 'http://localhost:3001/persons';
-const baseUrl = 'https://jz4cvq-3001.csb.app/api/persons'
+import axios from 'axios';
+// const baseUrl = 'https://jz4cvq-3001.csb.app/api/persons';
+// const baseUrl = 'http://localhost:3001/api/persons'
+const baseUrl = '/api/persons'
+
 
 
 const getAll = () => {
